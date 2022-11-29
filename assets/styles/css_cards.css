@@ -91,3 +91,21 @@ main.cards section.card.shop a {
     }
 
 }
+.modal-box i {
+    font-size: 70px;
+    color: #b0d91e;
+ }
+ 
+ .modal-box h2 {
+    
+    font-size: 25px;
+    font-weight: 500;
+    color: #b0d91e;
+ }
+ 
+ .modal-box h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+  
+ }
