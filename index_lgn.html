@@ -28,7 +28,6 @@
    display: none;
 }
 
-
 section {
    width: 100%;
    background: #343434;
@@ -52,6 +51,12 @@ button.show-modal,
    top: 50%;
    transform: translate(-50%, -50%);
    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.show-modal:hover{
+    color: #b0d91e;
+    cursor: pointer;
+    transition: .5s;
 }
 
 section.active .show-modal {
@@ -95,8 +100,9 @@ section.active .modal-box {
 }
 
 .modal-box i {
-   font-size: 70px;
+   font-size: 100px;
    color: #b0d91e;
+   display: block;
 }
 
 .modal-box h2 {

@@ -138,7 +138,7 @@ a{
    font-weight: bold;
    text-decoration: none;
    margin-top: 550px;
-   margin-left: 620px;
+   margin-left: 48%;
    transition: all .3s ease-out;
 
 }
@@ -187,9 +187,7 @@ td, th {
    text-align: center;
  }
  
-th{
-   
- }
+
  td{
    font-weight:bold;
    
@@ -277,7 +275,7 @@ th{
       position: absolute;
       font-size: 15px;
       margin-top: 700px;
-      margin-left: 38em;
+      margin-left: 47% !important; 
       
       cursor: pointer;
       -webkit-user-select: none;
@@ -382,7 +380,7 @@ th{
    position: absolute;
    font-size: 15px;
    margin-top: 93em;
-   margin-left: 38em;
+   margin-left: 100%;
    
    cursor: pointer;
    -webkit-user-select: none;

@@ -1,10 +1,9 @@
-/*CSS DICAS DICAS NUTRIÇÃO*/
-
-
+/* CSS CARDS */
 main.cards {
     display: flex;
-    padding: 32px;
-    margin-left: 240px !important;
+    width: 150px;
+    padding: 20px;
+    margin-left: 30%;
 }
 
 main.cards section.card {
@@ -13,7 +12,7 @@ main.cards section.card {
     align-items: center;
     text-align: center;
     background: #343434;
-    padding: 2rem 2.5rem;
+    padding: 1rem 1.5rem;
     border-radius: 8px;
     max-height: 468px;
     margin-left: 32px;
@@ -27,13 +26,19 @@ main.cards section.card:first-child {
     margin-left: 0;
 }
 
+main.cards section.card .icon {
+    width: 128px;
+    height: 128px;
+    
+}
+
 main.cards section.card img {
     width: 100%;
 }
 
 main.cards section.card h3 {
     font-size: 150%;
-    margin-top: 64px 64px ;
+    margin: 64px ;
     color: #b0d91e;
 }
 
@@ -45,9 +50,23 @@ main.cards section.card span {
     color: #ffffff;
 }
 
-
+main.cards section.card a {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 16px 0;
+    text-decoration: none;
+}
 
 main.cards section.card.contact a {
+    background: linear-gradient(to right, #b0d91e, #b0d91e);
+}
+main.cards section.card.shop a {
     background: linear-gradient(to right, #b0d91e, #b0d91e);
 }
 
@@ -72,20 +91,6 @@ main.cards section.card.contact a {
 
 }
 
-
-main.voltar section.return x {
-   padding: 0.5rem 1rem;
-   text-transform: uppercase;
-   border-radius: 32px;
-   border: 0;
-   cursor: pointer;
-   font-size: 80%;
-   font-weight: 500;
-   color: #ffffff;
-   margin-bottom: 16px 0;
-   text-decoration: none;
-}
-
 .a {
     background-color: #b0d91e;
     border-radius: 100px;
@@ -106,13 +111,6 @@ main.voltar section.return x {
     transition: .7s;
  }
 
-
  .rodape{
     margin: 30px auto;;
 }
-
-
-
-
-
-

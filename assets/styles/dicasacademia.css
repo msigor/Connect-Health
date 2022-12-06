@@ -1,11 +1,9 @@
  /*CSS DICAS ACADEMIA*/
-
-
-
+ 
 main.cards {
     display: flex;
     padding: 32px;
-    margin-left: 240px!important;
+    margin-left: 30% !important;
 }
 
 main.cards section.card {

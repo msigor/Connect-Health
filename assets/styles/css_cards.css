@@ -4,7 +4,7 @@ main.cards {
     width: 250px;
     height: auto;
     padding: 20px;
-    margin-left: 260px !important;
+    margin-left: 25%;
 }
 
 main.cards section.card {
